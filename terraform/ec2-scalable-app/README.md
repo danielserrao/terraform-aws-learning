@@ -13,3 +13,11 @@
 - terraform plan -destroy (Check what will be destroyed before actually destroying it)
 - terraform destroy -auto-approve (Destroy what was deployed by TF)
 
+
+# TODO
+
+- Create Security Group via TF to allow SSH and put this example in a separate folder.
+
+- Do similar example in a different folder using SSM instead of SSH.
+
+- Add connectivity through LoadBalancer on the second example.
