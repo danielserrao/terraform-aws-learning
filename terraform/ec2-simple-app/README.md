@@ -10,13 +10,18 @@
 - terraform validate (Basic validation of the TF config)
 - terraform plan (See what the current TF config intends to deploy before actually deploying)
 - terraform apply -auto-approve (Deploy to AWS)
+- ssh -i "<you-pem-file-path>" ubuntu@ec2-18-130-228-56.eu-west-2.compute.amazonaws.com (Connect to EC2 instance)
 - terraform plan -destroy (Check what will be destroyed before actually destroying it)
 - terraform destroy -auto-approve (Destroy what was deployed by TF)
 
 
+
+
 # TODO
 
-- Create Security Group via TF to allow SSH and put this example in a separate folder.
+- Deploy simple web server into the EC2 instance and make a web page available through a static IP.
+
+- Allow to deploy to different environments.
 
 - Do similar example in a different folder using SSM instead of SSH.
 
